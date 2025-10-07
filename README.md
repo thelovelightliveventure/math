@@ -13,4 +13,14 @@ Linear regression and non-linear regression take even more time! And it's mostly
 Precalculus class, I decided to build this program, to make life easier for you all. Also, AI's notoriously bad at linear regression and non-linear regression (it's also bad at 
 standard deviation, something I might add to this project in the future).
 
+## What files are in this project?
+Currently, there are only a couple of files:
+
+```python.py``` has all the main scripts for the program. It welcomes the user, finds the program the user needs, receives the user's input, and calculates what the output
+should be. 
+
+```db_setup.py``` sets up the database for the ```python.py``` script and defines it for the rest of the script. It's a helper script, if you will.
+
+```script.sql``` has all the tables for ```python.py```. This is the database that ```db_setup.py``` is pulling from. As of right now, it's not very useful, but once I write the MLS programs, this will be hugely helpful!
+
 [^note]: __This project is still underway.__
